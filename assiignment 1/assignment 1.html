@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+          FORM
+        </title>
+              <link rel="stylesheet" href="style.css">  
+    </head>
+    <body>
+  
+        <h1>PAYMENT FORM</h1>
+   <form action=""></form>
+   <h2>USER INFO</h2>
+   <p>NAME OF THE CANDIDATE: <input type="text" name ="name"></p>
+   <p><legend>GENDER</legend>
+  
+    male<input type="radio"name="gender"required>
+    female<input type="radio"name="gender"required>
+   </p>
+
+  <p>
+   <legend>ADRESSS</legend> <textarea name="ADDRESS" id="ADRESSS" cols="100" rows="3"required></textarea>
+  </p>
+  <p>
+    <legend>MAIL ID </legend>
+    <input type="email"name="email"required> 
+  </p>
+  <p><legend>pincode</legend>
+    <input type="number" name="pincode" id="pincode"required>
+  </p>
+  <h2>PAYMENT DETAILS</h2>
+  <p>CARD type:
+    <select name="card_type" id="card_type"required>
+        <option value="">selet a card type</option>
+        <option value="visa">visa</option>
+        <option value="master card">master card</option>
+        <option value="rupay">rupay</option>
+        <option value="fire">fire</option>
+    </select>
+  </p>
+  <p> card number 
+   <input type="number" name="number" id="number"required>
+  </p>
+  <p>expiry date:
+    <input type="date" name="exp number" id="exp number"required>
+  </p>
+  <p>ENTER CVV:
+    <input type="password" name="cvv" id="cvv"required>
+  </p>
+  <p>PAYNOW:
+    <input type="submit" value="paynow">
+  </p>
+    </body>
+</html>
